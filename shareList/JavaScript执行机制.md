@@ -246,8 +246,8 @@ setTimeout2	|then1
 首先输出2。接下来遇到了process.nextTick()，同样将其分发到微任务Event Queue中，记为process2。new Promise立即执行输出4，then也分发到微任务Event Queue中，记为then2。
 宏任务Event Queue|微任务Event Queue
 --|:--:|
-setTimeout2	|process2
-    	|then2  
+setTimeout2|process2
+|then2  
 
 第二轮事件循环宏任务结束，我们发现有process2和then2两个微任务可以执行。
 输出3。
@@ -260,8 +260,8 @@ setTimeout2	|process2
 将then分发到微任务Event Queue中，记为then3。
 宏任务Event Queue|微任务Event Queue
 --|:--:|
-	|process3
-    |then3  
+-|process3
+-|then3  
 第三轮事件循环宏任务执行结束，执行两个微任务process3和then3。
 输出10。
 输出12。
