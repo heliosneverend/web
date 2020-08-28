@@ -247,7 +247,7 @@ setTimeout2	|then1
 宏任务Event Queue|微任务Event Queue
 --|:--:|
 setTimeout2|process2
-|then2  
+-|then2  
 
 第二轮事件循环宏任务结束，我们发现有process2和then2两个微任务可以执行。
 输出3。
@@ -262,6 +262,7 @@ setTimeout2|process2
 --|:--:|
 -|process3
 -|then3  
+
 第三轮事件循环宏任务执行结束，执行两个微任务process3和then3。
 输出10。
 输出12。
