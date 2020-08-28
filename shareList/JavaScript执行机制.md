@@ -234,6 +234,7 @@ setTimeout(function() {
 --|:--:|
 setTimeout1|process1
 setTimeout2	|then1   
+
 上表是第一轮事件循环宏任务结束时各Event Queue的情况，此时已经输出了1和7。
 
 我们发现了process1和then1两个微任务。
