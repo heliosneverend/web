@@ -10,19 +10,19 @@
 
 邻接矩阵是表示图的常用方法, `用二维数组来表示`, 数组的每个下标对应每个点。当两个点有连线则二维数组的值为 1, 否则二维数组的值为 0。但是这种表示方法会照成存储空间的浪费(因存在大量 0)。
 
-![](../assets/graph01.jpg)
+![]('../assets/graph01.jpg')
 
 * `邻接表`
 
 如下图: `左侧为存储的顶点, 右侧为与之想对应的点`, 后文会采用这种方式实现图。
 
-![](../assets/graph02.jpg)
+![]('../assets/graph02.jpg')
 
 * `关联矩阵`
 
 行表示点, 列表示边。
 
-![](../assets/graph03.jpg)
+![]('../assets/graph03.jpg')
 
 ```js
 function Graph() {
@@ -94,7 +94,7 @@ I -> E
 
 顾名思义, 广度优先即横向优先, 英文名为 `breadth first search`(BFS), 它示意图如下:
 
-![](../assets/graph04.jpg)
+![]('../assets/graph04.jpg')
 
 思想: 用到了`队列`的思想。思路如下: (标白: 未发现; 标灰: 已找寻)
 
@@ -267,7 +267,7 @@ A - B - E - I
 
 深度优先遍历用到了栈的思想。英文名为 `depth first search`(DFS), 其示意图如下:
 
-![](../assets/graph05.jpg)
+![]('../assets/graph05.jpg')
 
 代码实现如下:
 

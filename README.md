@@ -1,6 +1,6 @@
 # 前端学习整理的空间 包括算法 React Node  Vue
 
-## JavaScript 底层原理 技术分享
+## Deep Into JavaScript
 ### JavaScript 执行机制
 [javaScript执行机制](./shareList/JavaScript执行机制.md)
 
@@ -33,10 +33,11 @@ This section we will start tralvel in the world of data strcture together! enjoy
 
 ### [Graph](./dataStructure/Graph.md)
 
-
-### Stack
-
 ## Project Framework
+
+
 ## FE Cloud
+
+
 ## javaScript高级程序设计
 [javaScript高级程序设计](./notes/note.md)
