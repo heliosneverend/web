@@ -4,4 +4,6 @@
 #### `1 个新概念` `4 个必须 Api` `单向数据流` `完善的错误提示`
 
 ### Flux 架构 
-![]('https://github.com/heliosneverend/web/blob/master/assets/react_1.png')
+![](https://github.com/heliosneverend/web/blob/master/assets/react_1.png)
+
+![](../assets/delete02.jpg)
