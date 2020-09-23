@@ -8,6 +8,7 @@
 [React](./react/react.md)
 
 ## Deep Into React
+[react-dom-diff](./react-dom-diff/index.html)
 
 ## Component Design
 
