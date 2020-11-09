@@ -1,3 +1,2 @@
 ### USE
-open Terminal
-run `node simple_web_server.js`
+open Terminal and run `node simple_web_server.js`
