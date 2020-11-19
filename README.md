@@ -8,11 +8,12 @@
 [React](./react/react.md)
 
 ## Deep Into React
-react-dom-diff 算法实现
+### react-dom-diff 算法实现
 [react-dom-diff](./react-dom-diff/index.html)
-简单实现一个 virtual-dom
+### 简单实现一个 virtual-dom
 [react-virtual-dom](./react/simple-virtual-dom/simple_virtual_dom.md)
-
+### 在 React 为什么需要写 super(props)
+[react-super-props](./react/super_props/super_props.md)
 ## Component Design
 
 ## Vue
